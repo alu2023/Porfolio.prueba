@@ -1,0 +1,44 @@
+.row {
+   padding: 20px;
+}
+/* todos los div de acerca de mi*/
+div{
+    background-color: rgb(201, 250, 201);
+    text-align: left;
+    border-radius: 20px;
+}
+/* edit nomb y titulo */
+#nombtit {
+ font-weight: bold;
+ margin-right: 100%;
+ margin-top: 60px;
+ 
+}
+/*edit foto de perfil */
+@media (min-width : 576px) {
+#fotoperfil {
+    position: absolute;
+    width: 16%;
+    border-radius: 100%;
+    box-shadow: 3px 3px 9px grey;
+    left: 5%;
+    top: 480px;
+ }
+}
+ @media (max-width : 575px) {
+    #fotoperfil {
+        position: absolute;
+        width: 35%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 33%;
+        top: 480px;
+    }
+ }
+
+/* edit acerca de mi */
+#Acerca {
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
