@@ -1,3 +1,29 @@
+
+#log-arg{
+    width: 150px;
+}
 img{
-    width: 100px;
+    width: 50px;
+    margin: 5px;
+}
+.rrss{
+    margin-right: 10px;
+}
+.btn {
+    border-width: 3px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Modificacion para celular */
+@media (max-width: 575px){
+.container{
+    flex-direction: column;
+}
+.rrss{
+    display: flex;
+    align-items: center;
+}
 }

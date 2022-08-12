@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './componentes/header/header.component';
 import { LogoArgProgComponent } from './componentes/logo-arg-prog/logo-arg-prog.component';
-import { LogoRrssComponent } from './componentes/logo-rrss/logo-rrss.component';
 import { BannerComponent } from './componentes/banner/banner.component';
 import { AcercaDeMiComponent } from './componentes/acerca-de-mi/acerca-de-mi.component';
 import { ExperienciaComponent } from './componentes/experiencia/experiencia.component';
@@ -19,7 +18,6 @@ import { ProyectosComponent } from './componentes/proyectos/proyectos.component'
     AppComponent,
     HeaderComponent,
     LogoArgProgComponent,
-    LogoRrssComponent,
     BannerComponent,
     AcercaDeMiComponent,
     ExperienciaComponent,
